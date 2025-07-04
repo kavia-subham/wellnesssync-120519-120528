@@ -1,0 +1,176 @@
+
+> nextjs@0.1.0 dev
+> next dev -p 3000 -H 0.0.0.0
+
+   ▲ Next.js 15.2.3
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1847ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.8s (763 modules)
+ GET / 200 in 646ms
+ ⚠ Blocked cross-origin request from vscode-internal-18884-beta.beta01.cloud.kavia.ai. To allow this, configure "allowedDevOrigins" in next.config
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET / 200 in 67ms
+ GET / 200 in 50ms
+ ○ Compiling /register ...
+ ✓ Compiled /register in 1822ms (913 modules)
+ GET /register 200 in 2209ms
+   Reload env: .env
+ ✓ Compiled in 3.5s (913 modules)
+ GET / 200 in 247ms
+ GET / 200 in 40ms
+ GET / 200 in 35ms
+ GET /register 200 in 109ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 634ms (922 modules)
+ GET /login 200 in 774ms
+ GET / 200 in 26ms
+ GET /login 200 in 21ms
+ ✓ Compiled /dashboard in 394ms (931 modules)
+ GET /dashboard 200 in 510ms
+ GET / 200 in 31ms
+ GET /dashboard 200 in 36ms
+ GET /dashboard 200 in 31ms
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 544ms (938 modules)
+ GET /profile 200 in 597ms
+ GET / 200 in 28ms
+ GET /profile 200 in 19ms
+ ✓ Compiled /data-entry in 481ms (945 modules)
+ GET /data-entry 200 in 543ms
+ ✓ Compiled in 208ms (398 modules)
+ GET / 200 in 28ms
+ GET /data-entry 200 in 20ms
+ GET / 200 in 18ms
+ GET /data-entry 200 in 15ms
+ GET /profile 200 in 15ms
+ GET /dashboard 200 in 22ms
+ ○ Compiling /analytics ...
+ ✓ Compiled /analytics in 1733ms (960 modules)
+ GET /analytics 200 in 1843ms
+ GET / 200 in 23ms
+ GET /analytics 200 in 74ms
+ GET /analytics 200 in 18ms
+ GET / 200 in 97ms
+ GET /login 200 in 125ms
+ GET /login?email=subham%40kavia.ai&password=LkurT6urdVqSKmx 200 in 46ms
+ GET /login?email=subham%40kavia.ai&password=LkurT6urdVqSKmx 200 in 57ms
+ GET /login?email=subham%40kavia.ai&password=LkurT6urdVqSKmx 200 in 47ms
+ GET /dashboard 200 in 22ms
+ GET /data-entry 200 in 56ms
+ GET /dashboard 200 in 11ms
+ ✓ Compiled in 1328ms (950 modules)
+ ✓ Compiled in 438ms (950 modules)
+ ✓ Compiled in 130ms (404 modules)
+ ✓ Compiled in 188ms (404 modules)
+ ✓ Compiled in 270ms (404 modules)
+ ✓ Compiled in 10s (2554 modules)
+ ✓ Compiled in 1773ms (2602 modules)
+ ✓ Compiled in 1995ms (2638 modules)
+ ✓ Compiled in 1753ms (1333 modules)
+ ✓ Compiled in 1256ms (1335 modules)
+MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+ GET / 200 in 791ms
+ GET / 200 in 159ms
+ ⨯ Error: Cannot find module './447.js'
+Require stack:
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/.next/server/webpack-runtime.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/.next/server/app/page.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/server/require.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/server/load-components.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/build/utils.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/build/swc/options.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/build/swc/index.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/server/config.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/server/next.js
+- /home/kavia/workspace/code-generation/wellnesssync-120519-120528/frontend_app/node_modules/next/dist/server/lib/start-server.js
+    at __webpack_require__.f.require (.next/server/webpack-runtime.js:198:28)
+    at <unknown> (.next/server/webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (.next/server/webpack-runtime.js:162:22)
+    at <unknown> (.next/server/app/profile/page.js:1:11858)
+    at Object.<anonymous> (.next/server/app/profile/page.js:1:11912) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/profile'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.5s (3054 modules)
+ GET / 200 in 1410ms
+ GET /profile 500 in 4784ms
+ GET / 200 in 43ms
+ GET /profile 200 in 43ms
+ GET / 200 in 41ms
+ GET /profile 200 in 38ms
+ GET /profile 200 in 22ms
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (.next/server/webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  digest: '1882595621'
+}
+TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (.next/server/webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at Object.__webpack_require__ [as require] (.next/server/webpack-runtime.js:33:43)
+    at JSON.parse (<anonymous>)
+    at JSON.parse (<anonymous>) {
+  page: '/profile'
+}
+ GET /profile 500 in 1749ms
+ ✓ Compiled in 823ms (3054 modules)
+MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+ GET / 200 in 529ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.1s (3058 modules)
+ GET /_next/static/chunks/main-app.js?v=1751612632974 404 in 1506ms
+ GET /_next/static/css/app/layout.css?v=1751612632974 404 in 2591ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 152ms
+ GET /_next/static/chunks/app/page.js 404 in 149ms
+ ✓ Compiled in 1111ms (1580 modules)
+ ✓ Compiled in 341ms (1580 modules)
+ ✓ Compiled in 4.2s (3152 modules)
+ ✓ Compiled in 342ms (1586 modules)
+ ✓ Compiled in 302ms (1586 modules)
+ ✓ Compiled in 856ms (3113 modules)
+ ✓ Compiled in 725ms (1584 modules)
+ ✓ Compiled in 795ms (3125 modules)
+ ✓ Compiled in 1031ms (3125 modules)
+ ✓ Compiled in 2.3s (3125 modules)
+ ✓ Compiled in 372ms (1592 modules)
+ ✓ Compiled in 898ms (3125 modules)
+ ✓ Compiled in 588ms (3125 modules)
+ ✓ Compiled in 677ms (3125 modules)
+ ✓ Compiled in 369ms (1592 modules)
+ ✓ Compiled in 592ms (1592 modules)
+ ✓ Compiled in 411ms (1592 modules)
+ ✓ Compiled in 1449ms (3125 modules)
+ ✓ Compiled in 1342ms (3125 modules)
+ ✓ Compiled in 6.3s (3125 modules)
+ ✓ Compiled in 677ms (3125 modules)
+ ✓ Compiled in 762ms (3125 modules)
+ ✓ Compiled in 963ms (3125 modules)
+ ✓ Compiled in 1625ms (3125 modules)
+ ✓ Compiled in 713ms (3125 modules)
+ ✓ Compiled in 672ms (3125 modules)
+ ✓ Compiled in 4s (3125 modules)
