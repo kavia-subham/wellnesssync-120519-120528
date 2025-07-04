@@ -1,1 +1,3 @@
-# wellnesssync-120519-120528
+# Project Repository
+
+This is the initial README file for the project.
